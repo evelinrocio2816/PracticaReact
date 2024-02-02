@@ -1,0 +1,8 @@
+.container-props{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: 2px underline double green;
+    margin-top: 5%;
+}

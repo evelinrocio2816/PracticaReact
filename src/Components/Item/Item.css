@@ -1,0 +1,51 @@
+/* Item.css */
+.divContainerItem{
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+}
+.item-container {
+    max-width: 400px;
+    height: 40%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .item-image {
+    max-width: 60%;
+    height: 65px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .item-name {
+    color: #333;
+  }
+  
+  .item-especialidad {
+    color: #555;
+  }
+  
+  .item-id {
+    color: #777;
+  }
+  
+  .item-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .item-button:hover {
+    background-color: #0056b3;
+  }
+  
